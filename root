@@ -51,8 +51,8 @@ regolith.lockscreen.wallpaper.color.shading.type:
 ! -- Theme elements
 ! --------------------------------------------
 
-gtk.theme_name: TokyoNight
-gtk.icon_theme_name: TokyoNight
+gtk.theme_name: Tokyonight-Dark
+gtk.icon_theme_name: Tokyonight-Dark
 
 ! --------------------------------------------
 ! -- Compositor Config
@@ -79,17 +79,17 @@ gtk.monospace_font_name: gtk_monospace_font_name
 ! --------------------------------------------
 
 ! TokyoNight color - https://lospec.com/palette-list/tokyo-night
-#define color_base01   #1a1b26
-#define color_base00   #a9b1d6
-#define color_base0    #292e42
-#define color_base1    #3b4261
-#define color_yellow   #ffc777
+#define color_base01   #c0caf5 
+#define color_base00   #1a1b26
+#define color_base0    #9aa5ce
+#define color_base1    #9aa5ce
+#define color_yellow   #e0af68
 #define color_orange   #ff9e64
-#define color_red      #c53b53
+#define color_red      #f7768e
 #define color_pink     #ff007c
 #define color_purple   #bb9af7
 #define color_blue     #7aa2f7
-#define color_cyan     #b4f9f8
+#define color_cyan     #7dcfff
 #define color_green    #c3e88d
 #define color_pink2    #ff007c
 #define color_green2   #4fd6be
