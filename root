@@ -1,0 +1,115 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: tokyo-night
+
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file: /usr/share/regolith-look/tokyo-night/tokyo-night-wallpaper.png
+regolith.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type: 
+
+! --------------------------------------------
+! -- Lockscreen Wallpaper 
+! --------------------------------------------
+
+!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/tokyo-night/tokyo-night-wallpaper.png
+regolith.lockscreen.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.lockscreen.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.lockscreen.wallpaper.color.secondary:
+regolith.lockscreen.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: TokyoNight
+gtk.icon_theme_name: TokyoNight
+
+! --------------------------------------------
+! -- Compositor Config
+! --------------------------------------------
+
+regolith.compositor.picom.config: /usr/share/regolith-look/tokyo-night/picom.conf
+! -- Other compositor configs may be specified as desired:
+! -- regolith.compositor.compton.config
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name RobotoMono Nerd Font 12
+#define gtk_document_font_name Sans 12
+#define gtk_monospace_font_name RobotoMono Nerd Font 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! TokyoNight color - https://lospec.com/palette-list/tokyo-night
+#define color_base01   #1a1b26
+#define color_base00   #a9b1d6
+#define color_base0    #292e42
+#define color_base1    #3b4261
+#define color_yellow   #ffc777
+#define color_orange   #ff9e64
+#define color_red      #c53b53
+#define color_pink     #ff007c
+#define color_purple   #bb9af7
+#define color_blue     #7aa2f7
+#define color_cyan     #b4f9f8
+#define color_green    #c3e88d
+#define color_pink2    #ff007c
+#define color_green2   #4fd6be
+#define color_yellow2  #ffc777
+#define color_purple2  #9d7cd8
+#define color_red2     #ff757f
+#define color_cyan2    #41a6b5
+#define color_orange2  #ff9e64
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/tokyo-night/i3xrocks"
+#include "/usr/share/regolith-look/tokyo-night/wm"
+#include "/usr/share/regolith-look/tokyo-night/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh
